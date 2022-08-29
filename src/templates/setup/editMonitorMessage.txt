@@ -1,0 +1,6 @@
+你正在查看【{{{ name }}}】的設定
+
+{{ >monitorSettingsMessageTemplate }}
+
+
+{{ >monitorStatusMessageTemplate }}

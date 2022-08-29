@@ -1,0 +1,38 @@
+{
+  "name": "lihkg-monitor-bot",
+  "version": "0.0.1",
+  "description": "A Telegram bot to monitor LIHKG threads",
+  "main": "main.js",
+  "scripts": {
+    "dev": "ts-node ./src/main.ts"
+  },
+  "keywords": [
+    "lihkg",
+    "telegram",
+    "telegram-bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/lodash": "^4.14.182",
+    "@types/mustache": "^4.2.1",
+    "@types/node": "^18.6.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^6.0.0",
+    "@grammyjs/menu": "^1.1.2",
+    "@grammyjs/router": "^2.0.0",
+    "@grammyjs/storage-file": "^2.0.0",
+    "@grammyjs/storage-firestore": "^2.0.0",
+    "@kitce/lihkg-api-node": "link:../lihkg-api-node",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "grammy": "^1.10.1",
+    "lodash": "^4.17.21",
+    "mustache": "^4.2.0",
+    "telegram-escape": "^1.1.0"
+  }
+}

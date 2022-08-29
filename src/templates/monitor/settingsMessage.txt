@@ -1,0 +1,4 @@
+{{ >monitorCategoriesMessageTemplate }}
+
+
+{{ >monitorKeywordsMessageTemplate }}

@@ -1,0 +1,1 @@
+💬 *帖文分類*：{{ #categories }}{{ name }}{{ ^isLast }}, {{ /isLast }}{{ /categories }}{{ ^categories.length }}{{ >monitorEmptyCategoriesMessageTemplate }}{{ /categories.length }}
